@@ -1,2 +1,2 @@
-# codingstudy
+# study-algorithm
 STUDY FOR CODING
