@@ -8,29 +8,29 @@ STUDY FOR CODING ( 홍홍, 동동 )
 5. 전공공부 https://github.com/JaeYeopHan/Interview_Question_for_Beginner 이거 보면서 하나씩 따라가기
    —> 일요일 마다 위에꺼 보면서 동익이가 자율적으로 이야기해주기(10~20분)
 
+
 git 사용법
 
-먼저 업로드한 사람이 있을 때 
-git checkout branch이름
-git pull origin main (프로젝트를 그대로 가져와서)
-git add honghong.cpp or dongdong.cpp  (추가한 cpp파일 add)
-git commit -m "test제목 날짜 하고싶은말 등등" 
-git push origin branch이름
+**먼저 업로드한 사람이 있을 때** <br/>
+git checkout branch이름 <br/>
+git pull origin main (프로젝트를 그대로 가져와서) <br/>
+git add honghong.cpp or dongdong.cpp  (추가한 cpp파일 add) <br/>
+git commit -m "test제목 날짜 하고싶은말 등등" <br/>
+git push origin branch이름 <br/>
+
+git checkout main (branch에서 커밋한걸 main에서 merge해주기 위해)<br/>
+git merge 커밋한branch이름<br/>
+git push origin main<br/>
 
 
-git checkout main (branch에서 커밋한걸 main에서 merge해주기 위해)
-git merge 커밋한branch이름
-git push origin main 
+**먼저 업로드한 사람이 없을 때** <br/>
+git checkout branch이름 <br/>
+git add test제목날짜폴더 <br/>
+git commit -m "test제목 날짜 하고싶은말 등등" <br/>
+git push origin branch이름 <br/>
 
-먼저 업로드한 사람이 없을 때
-git checkout branch이름
-git add test제목날짜폴더
-git commit -m "test제목 날짜 하고싶은말 등등" 
-git push origin branch이름
-
-
-git checkout main (branch에서 커밋한걸 main에서 merge해주기 위해)
-git merge 커밋한branch이름
-git push origin main 
+git checkout main (branch에서 커밋한걸 main에서 merge해주기 위해) <br/>
+git merge 커밋한branch이름 <br/>
+git push origin main <br/>
 
 이렇게 하면 될듯??
