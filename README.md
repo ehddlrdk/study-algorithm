@@ -1,7 +1,7 @@
 # study-algorithm
 STUDY FOR CODING ( 홍홍, 동동 ) 
 
-*코드 보면 이해 좀 하게 주석 좀 달아라*
+<strong> *코드 보면 이해 좀 하게 주석 좀 달아라* <strong/>
 
 1. 매주 일요일 09:00 ~ 10:00 회의시간
 2. leetcode challenge2021 문제풀고 code, 알고리즘 / 자료구조 사용법 같이 업로드
