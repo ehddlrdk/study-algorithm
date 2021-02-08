@@ -1,6 +1,8 @@
 # study-algorithm
 STUDY FOR CODING ( 홍홍, 동동 ) 
 
+<strong> 코드 보면 이해 좀 하게 주석 좀 달아라
+
 1. 매주 일요일 09:00 ~ 10:00 회의시간
 2. leetcode challenge2021 문제풀고 code, 알고리즘 / 자료구조 사용법 같이 업로드
 3. 프로그래머스 백준 문제 일주일에 두 문제 풀기. 카카오 최근 문제부터 시작.
