@@ -1,4 +1,4 @@
-#### QUEUE
+###### QUEUE
 QUEUE 선언
 ```c
 queue<int> Q;
