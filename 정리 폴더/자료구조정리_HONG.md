@@ -2,6 +2,6 @@
 
 ~~~c
 funtion test() {
-Foo();
+  Foo();
 }
 ~~~
