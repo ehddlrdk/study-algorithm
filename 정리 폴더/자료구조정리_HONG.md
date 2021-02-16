@@ -1,1 +1,5 @@
 ### QUEUE
+
+funtion test() {
+Foo();
+}
