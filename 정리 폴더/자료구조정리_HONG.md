@@ -3,6 +3,6 @@
 <pre>
 funtion test() 
 {
-Foo();
+  Foo();
 }
 <code>
