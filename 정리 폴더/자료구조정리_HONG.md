@@ -1,10 +1,10 @@
 ### QUEUE
 
 QUEUE 선언
-'''c
+```c
 queue<int> Q;
 queue<pair<int, string> Q;
-'''
+```
 
 맨 뒤 삽입
 ```c
