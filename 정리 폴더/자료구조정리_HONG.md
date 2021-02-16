@@ -3,5 +3,5 @@
 삽입 - Insert
 
 ```c
-`Q.push_back();`
+Q.push_back();
 '''
