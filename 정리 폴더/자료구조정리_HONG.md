@@ -1,7 +1,7 @@
 ### QUEUE
 
-~~~c
-funtion test() {
-  Foo();
-}
-~~~
+삽입 - Insert
+
+```c
+`Q.push_back();`
+'''
