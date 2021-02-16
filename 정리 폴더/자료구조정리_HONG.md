@@ -1,8 +1,14 @@
 ### QUEUE
 
-삽입
+QUEUE 선언
+'''c
+queue<int> Q;
+queue<pair<int, string> Q;
+'''
+
+맨 뒤 삽입
 ```c
-Q.push_back();
+Q.push();
 ```
 
 맨 앞 원소 읽기
@@ -10,6 +16,10 @@ Q.push_back();
 Q.front();
 ```
 
-맨 앞 원소 빼내기
+맨 앞 원소 삭제
 
-`Q.pop();`
+```c
+Q.pop();
+```
+
+
