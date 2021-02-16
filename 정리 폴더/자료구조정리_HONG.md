@@ -1,8 +1,7 @@
 ### QUEUE
 
-<pre>
-funtion test() 
-{
-  Foo();
+~~~c
+funtion test() {
+Foo();
 }
-<code>
+~~~
