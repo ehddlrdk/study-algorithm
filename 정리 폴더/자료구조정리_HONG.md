@@ -54,5 +54,30 @@ V.empty() //벡터가 비었는 지 확인(비었으면 True 리턴)
 
 ---
 ## MAP
-- MAP의 내부 구현은 검색, 삽입, 삭제가 **O(logN)**인 **레드블랙트리**로 구성되어 있음
+- MAP의 내부 구현은 검색, 삽입, 삭제가 **O(logN)** 인 **레드블랙트리**로 구성되어 있음
+- MAP은 자료를 저장할 때 내부에서 자동으로 정렬한다. MAP은 **key**를 기준으로 **오름차순** 정렬한다.
 
+MAP 선언
+```c
+map<int, string> M; //<Key Type, Value Type>
+```
+MAP 구조 - Front, Back 이런건 없음. Key를 이용해서 찾아야하는 듯
+
+MAP 값 추가
+```c
+M.insert(make_pair<2, "kihong"); //맨 뒤 2 삽입
+- **pair<iterator, bool> 리턴함**  
+V.insert(5. 2); //인덱스 5에 2 삽입 -> index, value
+```
+VECTOR 값 삭제
+```c
+V.pop_back(); //맨 뒤 값을 삭제
+V.erase(V.begin() + 5) //인덱스 5의 값을 삭제
+V.erase(V.begin(), V.begin() + 5) //인덱스 0~5의 값을 삭제
+V.clear() //전체 값을 삭제
+```
+MAP 메서드
+```c
+M.size() //맵의 크기 출력
+M.empty() //맵이 비었는 지 확인(비었으면 True 리턴)
+```
