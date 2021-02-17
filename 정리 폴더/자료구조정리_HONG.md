@@ -16,7 +16,7 @@ Q.size(); //큐의 크기 출력
 Q.back(); //큐의 맨 뒤 원소 출력
 ```
 참고 링크
-<https://coding-factory.tistory.com/598/>
+https://coding-factory.tistory.com/598?category=767224
 
 ---
 ## VECTOR
@@ -51,4 +51,5 @@ V.empty() //벡터가 비었는 지 확인(비었으면 True 리턴)
 
 참고 링크
 <https://coding-factory.tistory.com/596?category=767224/>
-
+---
+ㅁㄴㅇㄹ
