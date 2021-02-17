@@ -51,5 +51,8 @@ V.empty() //벡터가 비었는 지 확인(비었으면 True 리턴)
 
 참고 링크
 <https://coding-factory.tistory.com/596?category=767224/>
+
 ---
-ㅁㄴㅇㄹ
+## MAP
+- MAP의 내부 구현은 검색, 삽입, 삭제가 **O(logN)**인 **레드블랙트리**로 구성되어 있음
+
