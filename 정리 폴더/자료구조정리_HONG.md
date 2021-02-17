@@ -65,9 +65,8 @@ MAP 구조 - Front, Back 이런건 없음. Key를 이용해서 찾아야하는 �
 
 MAP 값 추가
 ```c
-M.insert(make_pair<2, "kihong"); //맨 뒤 2 삽입
-- **pair<iterator, bool> 리턴함**  
-V.insert(5. 2); //인덱스 5에 2 삽입 -> index, value
+M.insert(make_pair<2, "kihong"); //Key = 2 / Value = "kihong" 삽입
+- pair<iterator, bool> 리턴
 ```
 VECTOR 값 삭제
 ```c
