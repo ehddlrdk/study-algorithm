@@ -47,3 +47,31 @@
 ## Tree 종류
 ### Binary Tree (이진 트리)
 * 루트노드를 중심으로 두개의 서브 트리로 나위어 진다. 모든 서브 트리도 이진 트리이어야 한다.
+* level: 각 층별로 숫자를 매긴것. 레벨의 값은 0부터 시작하고 루트 노드의 레벨은 0이다.
+* height: 트리의 최고 레벨을 가리킴. 
+#### 이진 트리 종류- Perfect Binary Tree (포화 이진 트리), Complete Binary Tree (완전 이진 트리), Full Binary Tree(정 이진 트리)
+* 배열로 구성된 Binary Tree는 노드의 개수가 n개이고 root가 1인 index로 시작할 때, i번째 노드에 대해서 parent(i) = i/2, left_child(i) = 2i, right_child(i) = 2i + 1의 index를 가진다.
+### Binary Search Tree (이진 탐색 트리)
+* 효율적인 탐색을 위해 일련의 규칙을 따르는 트리.
+* 규칙 
+  1. 이진 탐색 트리의 노드에 저장된 키는 유일하다.
+  2. 부모의 키가 왼쪽 자식 노드의 키보다 크다.
+  3. 부모의 키가 오른쪽 자식 노드의 키보다 작다.
+  4. 왼쪽과 오른쪽 서브트리도 이진 탐색 트리이다.
+* 탐색 연산은 O(log n) 시간 복잡도를 가진다.
+
+ *배열보다 많은 메모리를 사용하며 데이터를 저장했지만 탐색에 필요한 시간 복잡도가 같게 되는 비효율적인 상황이 발생할 수 있음. 이를 해결하기 위해 Rebalancing기법이 등장하였다. 이 기법을 구현한 트리에는 여러 종류가 존재하며 가장 대표적으로 Red-Black Tree가 있다.*
+
+# Binary Heap
+* Tree 형식이며 배열에 기반한 Complete Binary Tree이다.
+* Heap에는 Max Heap, Min Heap 두 종류가 있다.
+## Max Heap
+* 각 노드의 값이 해당 children의 값보다 크거나 같은 Complete Binary Tree를 말한다.
+* Root Node에 있는 값이 제일 크므로, 최대값을 찾는데 소요되는 연산의 시간 복잡도가 O(1)이다. 
+* Complete Binary Tree이기에 배열을 사용하여 효율적인 관리가 가능하다.
+## Min Heap
+* 각 노드의 값이 해당 children의 값보다 작거나 같은 Complete Binary Tree를 말한다.
+* 최소값을 찾는데 소요되는 연산의 시간 복잡도가 O(1)이다
+
+### Max Heap, Min Heap은 노드가 제거되거나 추가되었을때 Heap구조를 유지하기 위해서 Heapify과정을 거친다. 
+* Heapify연산을 통해 깨진 Heap구조를 바로잡기위해 각 노드들의 위치를 조정하는 과정을 말한다.  
