@@ -15,11 +15,12 @@
 6. begin(객체); //ex. auto iter = begin(v)
 7. end(객체); //ex. auto iter = end(v);
 
-- *iterator의 end()는 마지막 원소가 아닌, 마지막 원소의 바로 다음번 원소를 가리킨다*
-  0 1 2 3 4 5 6
-  ^             ^
-  begin()       end()
+- **iterator의 end()는 마지막 원소가 아닌, 마지막 원소의 바로 다음번 원소를 가리킨다**
 
 ## 우리는 어떻게 Iterator를 사용하면 될까?
+- vector<int>::iterator iter = v.begin(); 또는 auto iter = v.begin()으로 선언 후 사용 가능
+  * auto 키워드는 기본 지정자임. 기본 지정자라는 의미는 굳이 지정하지 않아도 자동으로 auto로 지정된다는 의미
 
+- 각 자료구조
+  * ㅇㅁㄹ
 
