@@ -31,8 +31,8 @@
   * find(v.begin(), v.end(), "a") //범위 안의 원소들 중 value와 일치하는 첫 번째 원소를 가리키는 반복자를 리턴
 
 - 사용하고 있는 컨테이너를 탐색할 때 주로 사용하지 않을까?
-'''c
+```c
 for(auto iter = v.begin(); iter != iter.end(); iter++) {
  cout << iter->first << iter->second << endl;
 }
-'''
+```
