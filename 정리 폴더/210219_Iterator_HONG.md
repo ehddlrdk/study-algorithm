@@ -15,7 +15,7 @@
 6. begin(객체); //ex. auto iter = begin(v)
 7. end(객체); //ex. auto iter = end(v);
 
-- _iterator의 end()는 마지막 원소가 아닌, 마지막 원소의 바로 다음번 원소를 가리킨다_
+- *iterator의 end()는 마지막 원소가 아닌, 마지막 원소의 바로 다음번 원소를 가리킨다*
   0 1 2 3 4 5 6
   ^             ^
   begin()       end()
