@@ -21,6 +21,7 @@
 - vector<int>::iterator iter = v.begin(); 또는 auto iter = v.begin()으로 선언 후 사용 가능
   * auto 키워드는 기본 지정자임. 기본 지정자라는 의미는 굳이 지정하지 않아도 자동으로 auto로 지정된다는 의미
 
-- 각 자료구조
-  * ㅇㅁㄹ
+- 각 자료구조에는 Iterator를 리턴하는 기본 함수들이 구현되어 있음
+  * v.begin(), v.end()
+  * VECTOR : v.find("a") 
 
