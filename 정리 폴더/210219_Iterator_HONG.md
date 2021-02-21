@@ -8,13 +8,13 @@
 
 ## Iterator에 대한 설명
 - iterator 객체에서 사용할 수 있는 메서드는 다음과 같음
-  1. \*iter //원소값을 접근할 때 - cout << \*iter << endl; //iter\[3] 이렇게하면 3번 원소 접근 가능
-  2. iter++; //v.begin() + 1 이런건 가능
-  3. iter--; //v.end() - 1 이런건 가능 //iter1 + iter2 이런건 불가능
-  4. iter1 == iter2; 
-  5. iter1 != iter2; 
-  6. begin(객체); //ex. auto iter = begin(v)
-  7. end(객체); //ex. auto iter = end(v);
+1. \*iter //원소값을 접근할 때 - cout << \*iter << endl; //iter\[3] 이렇게하면 3번 원소 접근 가능
+2. iter++; //v.begin() + 1 이런건 가능
+3. iter--; //v.end() - 1 이런건 가능 //iter1 + iter2 이런건 불가능
+4. iter1 == iter2; 
+5. iter1 != iter2; 
+6. begin(객체); //ex. auto iter = begin(v)
+7. end(객체); //ex. auto iter = end(v);
 
 - **iterator의 end()는 마지막 원소가 아닌, 마지막 원소의 바로 다음번 원소를 가리킨다**
 
@@ -31,8 +31,8 @@
   * find(v.begin(), v.end(), "a") //범위 안의 원소들 중 value와 일치하는 첫 번째 원소를 가리키는 반복자를 리턴
 
 - 사용하고 있는 컨테이너를 탐색할 때 주로 사용하지 않을까?
-```c
-for(auto iter = v.begin(); iter != iter.end(); iter++) {
- cout << iter->first << iter->second << endl;
-}
-```
+  ```c
+  for(auto iter = v.begin(); iter != iter.end(); iter++) {
+   cout << iter->first << iter->second << endl;
+  }
+  ```
